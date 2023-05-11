@@ -29,12 +29,12 @@ function Home() {
 
 
         
-        <Button className='rounded-0 btn-hover ' variant="light" text='dark' size='lg' onClick={()=>{nav('/men')}} >SHOP MEN</Button> 
+        <Button className='rounded-0 btn-hover mb-5' variant="light" text='dark' size='lg' onClick={()=>{nav('/men')}} >SHOP MEN</Button> 
        
       
 
         {' '}
-        <Button className='ms-4 rounded-0 btn-hover' variant="light" text='dark' size='lg' onClick={()=>{nav('/women')}}>SHOP WOMEN</Button> 
+        <Button className='ms-4 rounded-0 btn-hover mb-5' variant="light" text='dark' size='lg' onClick={()=>{nav('/women')}}>SHOP WOMEN</Button> 
       
       </Card.Body>
       </div>
