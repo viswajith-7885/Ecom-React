@@ -1,12 +1,10 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './style.css'
-import { useNavigate } from 'react-router-dom';
+
 
 
 function Home() {
-  const nav=useNavigate()
   return (
     <div>
     <Card className="text-center">
@@ -18,14 +16,21 @@ function Home() {
 
       <div style={{textAlign: 'left'}}>
       <Card.Body>
-    
-         
-        <Button className='rounded-0 btn-hover mb-5' variant="light" text='dark' size='lg' onClick={()=>{nav('/men')}} >SHOP MEN</Button> 
+        <Card.Title style={{color:'white'}}>
+        <h1>Love the Planet</h1>
+        <h1>we walk on</h1>
+          </Card.Title>
+        <Card.Text style={{color:'white'}}>
+        <p>Bibendum fermentum, aenean donec pretium aliquam blandit</p>
+         tempor imperdiet arcu arcu ut nunc in dictum mauris at ut.
+        </Card.Text>
+
+
+        
        
       
 
-        {' '}
-        <Button className='ms-4 rounded-0 btn-hover mb-5' variant="light" text='dark' size='lg' onClick={()=>{nav('/women')}}>SHOP WOMEN</Button> 
+       
       
       </Card.Body>
       </div>
