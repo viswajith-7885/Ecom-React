@@ -18,17 +18,8 @@ function Home() {
 
       <div style={{textAlign: 'left'}}>
       <Card.Body>
-        <Card.Title style={{color:'white'}}>
-        <h1>Love the Planet</h1>
-        <h1>we walk on</h1>
-          </Card.Title>
-        <Card.Text style={{color:'white'}}>
-        <p>Bibendum fermentum, aenean donec pretium aliquam blandit</p>
-         tempor imperdiet arcu arcu ut nunc in dictum mauris at ut.
-        </Card.Text>
-
-
-        
+    
+         
         <Button className='rounded-0 btn-hover mb-5' variant="light" text='dark' size='lg' onClick={()=>{nav('/men')}} >SHOP MEN</Button> 
        
       

@@ -28,10 +28,9 @@ function View() {
   };
 
   return (
-    <div className="booss">
-    <div className="kutti">
+    <div >
     
-    <div className="anna" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       {data.map((e) => (
         <Card className="shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0 mx-auto" bg="light" text="dark" style={{ width: '30rem', margin: '2rem' }}>
           <Card.Img
@@ -51,7 +50,6 @@ function View() {
         </Card>
       ))}
       </div>
-    </div>
     </div>
   );
 }
