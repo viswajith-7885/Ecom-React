@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './style.css'
 import { useNavigate } from 'react-router-dom';
-import Bodys from './Bodys';
 
 
 function Home() {
@@ -42,7 +41,6 @@ function Home() {
       </Card.ImgOverlay>
       
     </Card>
-    <Bodys/>
     </div>
   )
 }
