@@ -30,3 +30,12 @@
     color: #48d1bb; ;
     border: 1px solid;
 }
+
+@media screen and (max-width: 365px) {
+   .card-query{
+      width:10rem !important;
+   }
+
+      
+    }
+  

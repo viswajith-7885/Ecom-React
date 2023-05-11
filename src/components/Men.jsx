@@ -21,7 +21,7 @@ function Men() {
     <div className='manager'>
     <div className="row gap-3">
     {menfilter.map((e)=>(
-      <Card className="shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0 mx-auto"
+      <Card className="shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0 mx-auto card-query"
       style={{ width: '18rem' }}>
       <Card.Img className='image' variant="top" src={e.image} />
       <Card.Body style={{textAlign:"center"}}>

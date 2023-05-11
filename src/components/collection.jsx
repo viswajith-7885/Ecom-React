@@ -25,14 +25,14 @@ function Collection() {
     <div className="row gap-2 " >
   
   {product.map((e)=>(
-    <Card className="shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0 mx-auto" style={{ width: '20rem' }}>
+    <Card className="shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-0 mx-auto card-query" style={{ width: '20rem' }}>
     <Card.Img className='image' variant="top" src={e.image} />
     <Card.Body style={{textAlign:'center'}}>
       <Card.Text>
       {e.title}
       </Card.Text>
       <h5>₹{e.price}</h5>
-      <Button className='view-btn' onClick={()=>nav(`/view/${e.id}`)} variant="primary">View Product</Button>
+      <Button className='view-btn' onClick={()=>nav(`/view/${e.id}`)} variant="primary">View</Button>
     </Card.Body>
   </Card>
     

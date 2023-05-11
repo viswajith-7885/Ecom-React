@@ -21,7 +21,7 @@ function Women() {
     <div className='row gap-2'>
   {womenfilter.map((e)=>(
     <Card 
-    className="shadow-lg p-3 mb-5 bg-body-tertiary rounded mx-auto"
+    className="shadow-lg p-3 mb-5 bg-body-tertiary rounded mx-auto card-query"
     style={{ width: '20rem' }}>
     <Card.Img className='image' variant="top" src={e.image} />
     <Card.Body style={{textAlign:"center"}}>
