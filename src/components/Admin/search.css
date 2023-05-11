@@ -1,0 +1,9 @@
+.btn-dlt{
+    background-color: rgb(213, 117, 117);
+    border: none;
+    border-radius: 0;
+}
+.btn-edit{
+    border-radius: 0;
+    background-color: rgb(106, 180, 180);
+}

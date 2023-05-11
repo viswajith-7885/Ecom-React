@@ -1,0 +1,24 @@
+.booss{
+    background-color: rgb(230, 213, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cart{
+    border: none;
+    border-radius: 0%;
+    background-color: rgb(194, 182, 182); 
+}
+.anna{
+    background-color: rgb(244, 242, 242);
+    width: 50vw;
+    height: 80vh;
+    
+}
+.kutti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    background-color: rgb(221, 212, 212);
+}

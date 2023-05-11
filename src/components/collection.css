@@ -1,0 +1,32 @@
+.boss{
+    background-color: #7a898e1d;
+    max-width: 100%;
+}
+.manager{
+    background-color:#ffff;
+    width: 105%;
+
+}
+.shuhaib{
+ background-color: red;
+ width: 95%;
+}
+.hedding{
+    color: #747c8c;
+    font-family: poppins,san-serif;
+    font-weight: 600;
+}
+.view-btn{
+    border: none;
+    
+    background-color: #48d1bb;
+    transition: ease-in-out .3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.view-btn:hover{
+    background-color:white;
+    box-shadow:0 5px 10px #a3a7af;
+    transform: translate(2px,2px);
+    color: #48d1bb; ;
+    border: 1px solid;
+}
